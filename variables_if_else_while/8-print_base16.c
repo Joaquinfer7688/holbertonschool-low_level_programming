@@ -8,7 +8,7 @@ int main(void)
 {
 	char hexDigit;
 
-	for (hexDigit = '0'; hexDigit <= 'f'; hexDigit++)
+	for (hexDigit = '0'; hexDigit <= 'f'; hexDigit--)
 		putchar(hexDigit);
 
 
