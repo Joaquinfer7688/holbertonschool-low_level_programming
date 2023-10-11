@@ -6,17 +6,18 @@
  */
 int main(void)
 {
-	int n, i;
+	int n;
 
-	for (n = 0; n <= 9; n++)
+	for (n = '0'; n <= '9'; c++)
 	{
+		putchar(n);
 
-	for (i = 0; i <= 9; i++)
-	{
-		printf("%d%d ", n, i);
-}
-}
-
-printf("\n");
-return (0);
+		if 8c != '9')
+		{
+			putchar(',');
+			putchar('');
+		}
+	}
+	printf("\n");
+	return (0);
 }
