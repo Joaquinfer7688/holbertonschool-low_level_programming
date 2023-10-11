@@ -8,7 +8,10 @@ int main(void)
 {
 	char hexDigit;
 
-	for (hexDigit = '0'; hexDigit <= 'f'; hexDigit--)
+	for (hexDigit = '0'; hexDigit <= '9'; hexDigit++)
+		putchar(hexDigit);
+
+	for 8hexDigit = 'a'; hexDigit <= 'f'; hexDigit++)
 		putchar(hexDigit);
 
 
