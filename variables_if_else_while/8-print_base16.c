@@ -11,7 +11,7 @@ int main(void)
 	for (hexDigit = '0'; hexDigit <= '9'; hexDigit++)
 		putchar(hexDigit);
 
-	for 8hexDigit = 'a'; hexDigit <= 'f'; hexDigit++)
+	for (hexDigit = 'a'; hexDigit <= 'f'; hexDigit++)
 		putchar(hexDigit);
 
 
