@@ -1,18 +1,18 @@
 #include "main.h"
 /**
- * main - the alphabet game
+ * print_alphabet - print the English alphabet from A to Z
  *
  * Return:0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
-	
-		putchar(letter);
+	{
+	_putchar(letter);
+	}
+	_putchar('\n');
 
-	putchar('\n');
-		return (0);
 }
 
