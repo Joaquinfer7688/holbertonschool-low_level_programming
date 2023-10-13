@@ -1,15 +1,14 @@
 #include "main.h"
 /**
- * _isupper - write function that checks for uppercase character
- *
- * Return: 1 if c is uppercase or 0 for anything else
+ * _isdigit - write function that checks for uppercase character
+ *@c: the number to be checked
+ * Return: 1 if c is a digit or 0 for anything else
  */
-int _issuper(int c);
+int _isdigit(int c)
 {
-	if (c >= 65 && c <= 90)
+	if (c >= 48 && c<= 57)
 	{
 		return (1);
 	}
-
-		return (0);
+	return (0);
 }
