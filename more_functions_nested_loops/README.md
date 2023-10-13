@@ -1,1 +1,1 @@
-tgy5hy#!/bin/bash
+#!/bin/bash
