@@ -5,7 +5,7 @@
  *@c: hte number to be checked
  * Return: 1 if c is uppercase or 0 for anything else
  */
-int _isuper(int c)
+int _isupper(int c)
 {
 	if ('c' >= 65 && 'c' <= 90)
 	{
