@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * mul - function than multiplies two integers
- *@a: the first number
- *@b: the second number
- *return:0
- */
+* mul - multiplies two integers
+* @a: the first number integer to multiply
+* @b: the second number integer to multiply
+* Return: The result of multiplication between x param and y param
+*/
 int mul(int a, int b)
 {
 	return (a * b);
