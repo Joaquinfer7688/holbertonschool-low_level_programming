@@ -2,7 +2,7 @@
 /**
  * _atoi - convert a string to an integer
  *@s: the pointer to convert
- * Retun:
+ * Retun: a integer
  */
 int _atoi(char *s)
 {
