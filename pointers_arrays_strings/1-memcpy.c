@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _mempcy - function taht copies memory area
+ * _mempcy - function that copies memory area
  *@dest: dest memory area
  *@src: source memory area
  *@n: bytes from memory area to copy
