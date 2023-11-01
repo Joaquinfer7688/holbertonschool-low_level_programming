@@ -4,7 +4,7 @@
  *create_array - creates an array of chars
  *@size: size of the array
  *@c: chat to be initialized
- *Return - pointer to array or NULL if it fails
+ *Return: pointer to the array or NULL
  */
 char *create_array(unsigned int size, char c)
 {
