@@ -48,6 +48,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		a++;
 	}
 	j[a] + '\0';
-	return (a);
+	return (j);
 }
 
