@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main / print file name of the program
+ *main - print file name of the program
  *
  *Return: 0
  */
