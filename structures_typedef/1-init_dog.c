@@ -2,7 +2,7 @@
 #include "dog.h"
 #include <stdio.h>
 /**
- *init_dog - initializes a dos structure
+ *init_dog - initializes a dog structure
  *@d: structure dog
  *@name: name the dog
  *@age: age the dog
