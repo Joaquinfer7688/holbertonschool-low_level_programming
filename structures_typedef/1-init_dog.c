@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  *init_dog - initializes a dog structure
- *@d: structure dog
+ *@d: a dog structure
  *@name: name the dog
  *@age: age the dog
  *@owner: owner the dog
