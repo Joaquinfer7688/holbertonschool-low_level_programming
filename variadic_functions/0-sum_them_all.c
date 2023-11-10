@@ -3,7 +3,7 @@
 #include "variadic_functions.h"
 /**
  *sum_them_all - function sum of all paremeters
- *
+ *@n: paremeters
  *Return: 0
  */
 int sum_them_all(const unsigned int n, ...)
