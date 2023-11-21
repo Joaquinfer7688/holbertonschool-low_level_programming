@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- *add_node_edn - adds new node at the end of list
+ *add_node_end - adds new node at the end of list
  *@head: is a pointer to first node
  *@str: is a string
  *Return: pointer list
