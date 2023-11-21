@@ -1,1 +1,1 @@
-Project C - Singly linked lists
+Project C - Singly linked lists holbertonschool
