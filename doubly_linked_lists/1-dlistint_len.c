@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- *dlisint_len - function return number of elements the list
+ *dlistint_len - function return number of elements the list
  *@h: head
  *Return: count
  */
