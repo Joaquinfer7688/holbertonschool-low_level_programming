@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stddef.h>
+
 /**
  *get_dnodeint_at_index -
  *@head: pointer to head the list
