@@ -2,7 +2,7 @@
 /**
  *get_bit - function return value of a bit at given index
  *@n: bit
- *@index: value 
+ *@index: value
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
