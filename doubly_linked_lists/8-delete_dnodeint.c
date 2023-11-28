@@ -4,6 +4,7 @@
  *@head: pointer
  *@index: index position node delete
  *Return: 1 or -1
+ *Description: delete node at index position
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
