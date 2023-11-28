@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- *delete_dnodeint_at_index: function deletes node an index
+ *delete_dnodeint_at_index: function deletes node an index of linked list
  *@head: pointer
  *@index: index position node delete
  *Return: 1 or -1
