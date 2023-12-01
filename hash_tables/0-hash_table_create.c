@@ -2,7 +2,7 @@
 /**
  *hash_table_create - function that creates a hash table
  *@size: size the array
- *Retun: NULL in erorr or otherwise 
+ *Return: NULL or hash_table
  */
 hash_table_t *hash_table_create(unsigned long int size)
 {
