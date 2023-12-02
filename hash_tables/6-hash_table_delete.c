@@ -6,8 +6,8 @@
  */
 void hash_table_delete(hash_table_t *ht)
 {
-	hash_table_t 8head = ht;
-	hash_node_t 8/node, *j;
+	hash_table_t *head = ht;
+	hash_node_t *node, *j;
 	unsigned long int i;
 
 	for (i = 0; i < ht->size; i++)
