@@ -4,7 +4,7 @@
 * binary_search - function that searches for a value in a sorted array
 *@array: pointer to first element array
 *@size: number of elements in array
-@value: value to search
+*@value: value to search
 */
 
 int binary_search(int *array, size_t size, int value)
@@ -15,9 +15,7 @@ int binary_search(int *array, size_t size, int value)
 	int mid = left + (right - left) / 2;
 
 	if (array == NULL || size == 0)
-	{
-	return (-1);
-	}
+			return (-1);
 
 	while (left <= right)
 	{
@@ -25,22 +23,17 @@ int binary_search(int *array, size_t size, int value)
 
 		for (i = left; i <= right; i++)
 			printf("%d ", array[i]);
-		printf("\n");
+		printf("\n", array[right]);
 
 		if (array[mid] == value)
-		{
 			return (mid);
-		}
 
-	else if (array[mid] > value)
-	{
-		left = mid + 1;
-	}
+		if (array[mid] > value)
+
+		left = mid - 1;
+
 		else
-		{
-		right = mid - 1;
-		}
-
+		left = mid + 1;
 	}
 	return (-1);
 }
